@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="bankRegulatoryCapitalRatio" displayName="Banking Sector: Regulatory Capital Ratio" type="double" 
+						defaultValue="0.08" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="userDefinedLAPFAssets" displayName="Model: User Defined LAPF Assets" type="double" 
+						defaultValue="1.0E8" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="randomSeed" displayName="Repast: Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="recoveryRateOnCreditAsset" displayName="Economy: Recovery Rate on Credit Assets" type="double" 
+						defaultValue="0.6" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="securitiseString" displayName="Banking Sector: Enable Securitisation" type="java.lang.String" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="defaultProbabilityBankExpectations" displayName="Banking Sector: Bank Assets Default Probability" type="double" 
+						defaultValue="0.1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="opportunityCostOfFixedIncomeInvestment" displayName="Economy: Cost of Fixed Income Investment" type="double" 
+						defaultValue="0.01" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="probabilityOfEquityReturnExpectations" displayName="LAPF Sector: Traditional Assets Return Probability" type="double" 
+						defaultValue="0.75" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="lapfMultiPeriodSolvancyModelString" displayName="Model: LAPF Multi-Period Solvancy Model" type="java.lang.String" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="bankAssetReturn" displayName="Banking Sector: Interest Return on Bank Assets" type="double" 
+						defaultValue="0.0835" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="bankCount" displayName="Banking Sector: Bank Count" type="int" 
+						defaultValue="30" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									values="30 97 "
+						
+		/>
+				<parameter name="traditionalAssetVariationTypeString" displayName="Model: LAPF Traditional Assets Vatiation Type" type="java.lang.String" 
+						defaultValue="EquityFundReturns2005_09" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="constant CCFEA_SS2007 SnP10yrReturns SnPCAGR2002_09 EquityFundReturns2005_09 stochastic "
+						
+		/>
+				<parameter name="lapfQuadraticCostFunctionString" displayName="LAPF Sector: LAPF Quadratic Cost Function" type="java.lang.String" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="lapfRegulatorySolvancyRatio" displayName="LAPF Sector: LAPF Regulatory Solvency  Ratio" type="double" 
+						defaultValue="0.17" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									values="0.17 0.22 0.3 0.5 "
+						
+		/>
+				<parameter name="securitisationCostConstantFactor" displayName="Economy: Securitisation Cost Multiplier" type="double" 
+						defaultValue="0.05" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="securitisationRate" displayName="Economy: Securitisation Rate" type="double" 
+						defaultValue="0.35" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="userAssetLiabilityDataInpuString" displayName="Model: Enable User Defined Data Input" type="java.lang.String" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="borrowerTypeString" displayName="Economy: Borrower Type" type="java.lang.String" 
+						defaultValue="individual_generic" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="corporate bank individual_generic individual_first_time_buyer individual_established_owner "
+						
+		/>
+				<parameter name="interestSpreadExperimentString" displayName="Model: Identical Bank Interest Spreads" type="java.lang.String" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="shortSellingString" displayName="Model: Permit Short Selling" type="java.lang.String" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="returnOnGlobalEquity" displayName="Economy: Equity Market Return" type="double" 
+						defaultValue="0.05" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="lapfPeriodicLiabilityPaymentRate" displayName="LAPF Sector: Liability Payment Rate" type="double" 
+						defaultValue="0.02" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="paymentSchedule" displayName="Model: Cashflow Payment Schedule" type="java.lang.String" 
+						defaultValue="annually" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="weekly bi_weekly monthly quarterly semi_annually annually "
+						
+		/>
+				<parameter name="userDefinedBankAssets" displayName="Model: User Defined Bank Assets" type="double" 
+						defaultValue="1.0E8" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="securitiseLinearString" displayName="Banking Sector: Linear Securitisation Cost" type="java.lang.String" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="userDefinedBankLiabilities" displayName="Model: User Defined Bank Liabilities" type="double" 
+						defaultValue="9.2E7" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="investorCount" displayName="LAPF Sector: LAPF Count" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									values="1 300 "
+						
+		/>
+				<parameter name="recoveryRateOnTraditionalAsset" displayName="Economy: Recovery Rate on Traditional Assets" type="double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="lapfConstantContractualObligationsString" displayName="LAPF Sector: Constant Contractual Obligations" type="java.lang.String" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="bankLiabilityExpense" displayName="Banking Sector: Interest Expense on Bank Liabilities" type="double" 
+						defaultValue="0.0252" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+				<parameter name="bnksOnlyAnalysisString" displayName="Banking Sector Only Analysis" type="java.lang.String" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="modelPeriodSting" displayName="Model Period Range" type="java.lang.String" 
+						defaultValue="2002-2009" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="2002-2009 2002-2005 2006-2009 "
+						
+		/>
+				<parameter name="internalSecuritiseString" displayName="Banking Sector: Internalised Securitisation Decisions" type="java.lang.String" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="true false "
+						
+		/>
+				<parameter name="userDefinedLAPFLiabilities" displayName="Model: User Defined LAPF Liabilities" type="double" 
+						defaultValue="9.2E7" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
+		</parameters>
+
+
