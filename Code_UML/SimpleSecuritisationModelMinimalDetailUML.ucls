@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="MarkoseDYangModel_V01" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MarkoseDYangModel_V01.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="187" x="515" y="197"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Economy" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/Economy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="90" width="173" x="522" y="383"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Bank" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/Bank.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="78" width="204" x="148" y="553"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="CInvestor" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/CInvestor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="57" width="87" x="883" y="552"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Dealer_MarketMaker" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/Dealer_MarketMaker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="607" y="580"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="SecuritisationEngine" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/SecuritisationEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="70" width="173" x="162" y="692"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="SecuritisationModelObserverJAS" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/SecuritisationModelObserverJAS.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="266" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="CRTApplicationFrame" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/CRTApplicationFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="353" y="28"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="CRTApplicationFrame.MyRenderer" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/CRTApplicationFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="50" y="232"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <association id="10">    
+    <bendpoint x="926" y="428"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="11" name="economy"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="13">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="14" name="simModel"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <bendpoint x="357" y="428"/>    
+    <bendpoint x="357" y="522"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="17" name="bankList"/>      
+      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <bendpoint x="360" y="279"/>    
+    <bendpoint x="362" y="357"/>    
+    <bendpoint x="86" y="357"/>    
+    <bendpoint x="86" y="498"/>    
+    <bendpoint x="86" y="611"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="20" name="bankList"/>      
+      <multiplicity id="21" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <bendpoint x="1030" y="230"/>    
+    <bendpoint x="1030" y="581"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="23" name="lapfList"/>      
+      <multiplicity id="24" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="25">    
+    <bendpoint x="209" y="428"/>    
+    <bendpoint x="209" y="510"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="26" name="failedBankList"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <bendpoint x="734" y="580"/>    
+    <bendpoint x="734" y="519"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="29" name="economy"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <bendpoint x="361" y="278"/>    
+    <bendpoint x="361" y="356"/>    
+    <bendpoint x="86" y="356"/>    
+    <bendpoint x="86" y="553"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="32" name="failedBankList"/>      
+      <multiplicity id="33" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <bendpoint x="656" y="196"/>    
+    <bendpoint x="656" y="29"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="35" name="frame"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <bendpoint x="436" y="547"/>    
+    <bendpoint x="436" y="505"/>    
+    <bendpoint x="561" y="505"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="38" name="economy"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <bendpoint x="1043" y="230"/>    
+    <bendpoint x="1043" y="669"/>    
+    <bendpoint x="607" y="669"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="41" name="brokerDealMaketMakerList"/>      
+      <multiplicity id="42" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="44" name="supplySideList"/>      
+      <multiplicity id="45" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="47" name="model"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <bendpoint x="353" y="149"/>    
+    <bendpoint x="266" y="149"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="50" name="modelObserver"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="52">    
+    <bendpoint x="50" y="28"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <association id="53">    
+    <bendpoint x="353" y="148"/>    
+    <bendpoint x="609" y="148"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="54" name="model"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="57" name="securitisationEngine"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="60" name="demandSideList"/>      
+      <multiplicity id="61" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <bendpoint x="799" y="469"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="63" name="InvestorsList"/>      
+      <multiplicity id="64" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="66" name="brokerDealMaketMakerList"/>      
+      <multiplicity id="67" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

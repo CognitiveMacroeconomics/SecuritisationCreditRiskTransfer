@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="MarkoseDYangModel_V01" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MarkoseDYangModel_V01.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="187" x="515" y="197"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Economy" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/Economy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="90" width="173" x="522" y="331"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Bank" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/Bank.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="78" width="204" x="152" y="478"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="CInvestor" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/CInvestor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="57" width="87" x="511" y="1446"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Dealer_MarketMaker" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/Dealer_MarketMaker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="144" x="153" y="1509"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="SecuritisationModelObserverJAS" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/SecuritisationModelObserverJAS.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="266" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="CRTApplicationFrame" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/CRTApplicationFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="353" y="28"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="CRTApplicationFrame.MyRenderer" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/CRTApplicationFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-829" y="221"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="ErevRothSecuritisationProblem" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/ErevRothSecuritisationProblem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="128" y="710"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="ErevRothProblem" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/ErevRothProblem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="369" y="708"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="ErevRothLearner" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/ErevRothLearner.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="369" y="810"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="ErevRothAction" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/ErevRothAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="126" y="793"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="MDPMarkovAgent" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPMarkovAgent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1063" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="MarkovDecisionProcess" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MarkovDecisionProcess.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1466" y="965"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="MDPPortfolioChoiceAction" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPPortfolioChoiceAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1064" y="938"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="DefinedTransitionProbabilities" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/DefinedTransitionProbabilities.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1361" y="343"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="DefiinedStateReturns" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/DefiinedStateReturns.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1553" y="314"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="MDPCapitalMarketsState" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPCapitalMarketsState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1549" y="1452"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="MDPInvestorAgent" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPInvestorAgent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1294" y="665"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="MDPModelParameterSettingWindow.EpsilonErrorChangeListener" 
+    project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPModelParameterSettingWindow.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-312" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="MDPModelParameterSettingWindow.GammaDistountFactorChangeListener" 
+    project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPModelParameterSettingWindow.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-56" y="380"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="MDPModelParameterSettingWindow" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPModelParameterSettingWindow.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-178" y="227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="MDPErevRothSettingsWindow" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPErevRothSettingsWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-583" y="224"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="MDPErevRothSettingsWindow.SecuritisationRateIncrementChangeListener" 
+    project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPErevRothSettingsWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-913" y="376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="MDPErevRothSettingsWindow.SecuritisationRateMaxChangeChangeListener" 
+    project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPErevRothSettingsWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="289" x="-727" y="351"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="MDPStatesPathEngine" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/MDPStatesPathEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="981" y="320"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="PortfolioMDPRLModelSolver" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/PortfolioMDPRLModelSolver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1170" y="1043"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="SolverAlgorithm" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/SolverAlgorithm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1146" y="1377"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="EconomicAgent" project="SecuritisationCreditRiskTransfer" 
+    file="/SecuritisationCreditRiskTransfer/src/EconomicAgent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-227" y="476"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <association id="30">    
+    <bendpoint x="1696" y="484"/>    
+    <bendpoint x="1696" y="1492"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="31" name="currentMDPState"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <bendpoint x="1247" y="993"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="34" name="actionsAtCurrentStateList"/>      
+      <multiplicity id="35" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="36">    
+    <bendpoint x="-18" y="612"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="37">    
+    <bendpoint x="353" y="147"/>    
+    <bendpoint x="267" y="147"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="38" name="modelObserver"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="40">    
+    <bendpoint x="-829" y="28"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <association id="41">    
+    <bendpoint x="1696" y="484"/>    
+    <bendpoint x="1696" y="1435"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="42" name="MDPStatesDomain"/>      
+      <multiplicity id="43" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <bendpoint x="-154" y="939"/>    
+    <bendpoint x="369" y="939"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="45" name="erevRothLearner"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="47">    
+    <bendpoint x="225" y="1577"/>    
+    <bendpoint x="-228" y="1577"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="48">    
+    <bendpoint x="1655" y="966"/>    
+    <bendpoint x="1654" y="1396"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="49" name="reachableStates"/>      
+      <multiplicity id="50" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="52" name="economy"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <bendpoint x="910" y="376"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="55" name="MDPMarkovAgentList"/>      
+      <multiplicity id="56" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <bendpoint x="746" y="835"/>    
+    <bendpoint x="745" y="586"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="58" name="economy"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <bendpoint x="849" y="889"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="61" name="bestMDPPolicyHistory"/>      
+      <multiplicity id="62" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="64" name="model"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <bendpoint x="1752" y="230"/>    
+    <bendpoint x="1752" y="925"/>    
+    <bendpoint x="1752" y="1538"/>    
+    <bendpoint x="555" y="1538"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="67" name="lapfList"/>      
+      <multiplicity id="68" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <bendpoint x="1222" y="851"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="70" name="bestPolicy"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="73" name="lastAction"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <bendpoint x="916" y="763"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="76" name="MDPPolicyDomain"/>      
+      <multiplicity id="77" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="78">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <association id="79">    
+    <bendpoint x="353" y="147"/>    
+    <bendpoint x="-178" y="147"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="80" name="MDPParameterDialog"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <bendpoint x="513" y="636"/>    
+    <bendpoint x="475" y="513"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="83" name="economy"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="85">    
+    <bendpoint x="1786" y="484"/>    
+    <bendpoint x="1786" y="1577"/>    
+    <bendpoint x="1663" y="1577"/>    
+    <bendpoint x="1539" y="1577"/>    
+    <bendpoint x="1289" y="1577"/>    
+    <bendpoint x="783" y="1577"/>    
+    <bendpoint x="-228" y="1578"/>    
+    <bendpoint x="-227" y="876"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <association id="86">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="87" name="bestPolicy"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <bendpoint x="209" y="428"/>    
+    <bendpoint x="208" y="460"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="90" name="failedBankList"/>      
+      <multiplicity id="91" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="93" name="economy"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <bendpoint x="360" y="279"/>    
+    <bendpoint x="362" y="357"/>    
+    <bendpoint x="86" y="357"/>    
+    <bendpoint x="86" y="498"/>    
+    <bendpoint x="86" y="553"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="96" name="bankList"/>      
+      <multiplicity id="97" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="98">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="99" name="erModel"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="101">    
+    <bendpoint x="1656" y="966"/>    
+    <bendpoint x="1654" y="1365"/>    
+    <bendpoint x="1404" y="1365"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="102" name="MDPStates"/>      
+      <multiplicity id="103" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="104">    
+    <bendpoint x="-155" y="937"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="105" name="solverAlgorithm"/>      
+      <multiplicity id="106" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="107">    
+    <bendpoint x="353" y="147"/>    
+    <bendpoint x="-558" y="147"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="108" name="MDPErevRothdialog"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="111" name="simModel"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="114" name="mdpState"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <bendpoint x="1186" y="230"/>    
+    <bendpoint x="1186" y="436"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="117" name="MDPMarkovAgentList"/>      
+      <multiplicity id="118" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="119">    
+    <bendpoint x="-178" y="310"/>    
+    <bendpoint x="-56" y="310"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="21"/>  
+  </nesting>  
+  <association id="120">    
+    <bendpoint x="1275" y="873"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="121" name="lastAction"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="124" name="statesPathEngine"/>      
+      <multiplicity id="125" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="126">    
+    <bendpoint x="1365" y="1526"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="127" name="MDPStates"/>      
+      <multiplicity id="128" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <bendpoint x="1289" y="938"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="130" name="actionsSpace"/>      
+      <multiplicity id="131" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="133" name="demandSideList"/>      
+      <multiplicity id="134" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="135">    
+    <bendpoint x="1465" y="541"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="136" name="mdp"/>      
+      <multiplicity id="137" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="138">    
+    <bendpoint x="656" y="196"/>    
+    <bendpoint x="656" y="29"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="139" name="frame"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="141">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <association id="142">    
+    <bendpoint x="607" y="964"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="143" name="brokerDealMaketMakerList"/>      
+      <multiplicity id="144" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="145">    
+    <bendpoint x="1735" y="384"/>    
+    <bendpoint x="1733" y="1500"/>    
+    <bendpoint x="1578" y="1501"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="146" name="MDPStates"/>      
+      <multiplicity id="147" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="148">    
+    <bendpoint x="645" y="1171"/>    
+    <bendpoint x="810" y="1057"/>    
+    <bendpoint x="946" y="1048"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="149" name="bestMDPPolicyHistory"/>      
+      <multiplicity id="150" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="151">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="25"/>  
+  </nesting>  
+  <association id="152">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="153" name="markovDecisionProcessContext"/>      
+      <multiplicity id="154" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="155">    
+    <bendpoint x="-178" y="310"/>    
+    <bendpoint x="-312" y="310"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="20"/>  
+  </nesting>  
+  <generalization id="156">    
+    <bendpoint x="626" y="1509"/>    
+    <bendpoint x="626" y="1577"/>    
+    <bendpoint x="-228" y="1577"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <generalization id="157">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="158">    
+    <bendpoint x="645" y="1172"/>    
+    <bendpoint x="773" y="1082"/>    
+    <bendpoint x="772" y="1012"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="159" name="bestPolicy"/>      
+      <multiplicity id="160" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="161">    
+    <bendpoint x="-159" y="650"/>    
+    <bendpoint x="14" y="650"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="162" name="supplySideList"/>      
+      <multiplicity id="163" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="164">    
+    <bendpoint x="-583" y="318"/>    
+    <bendpoint x="-912" y="318"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <association id="165">    
+    <bendpoint x="353" y="147"/>    
+    <bendpoint x="609" y="147"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="166" name="model"/>      
+      <multiplicity id="167" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="168">    
+    <bendpoint x="340" y="428"/>    
+    <bendpoint x="340" y="463"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="169" name="bankList"/>      
+      <multiplicity id="170" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="171">    
+    <bendpoint x="254" y="662"/>    
+    <bendpoint x="128" y="662"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="172" name="erevRothSecuritisationModel"/>      
+      <multiplicity id="173" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="174">    
+    <bendpoint x="361" y="278"/>    
+    <bendpoint x="361" y="356"/>    
+    <bendpoint x="86" y="356"/>    
+    <bendpoint x="86" y="490"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="175" name="failedBankList"/>      
+      <multiplicity id="176" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="177">    
+    <bendpoint x="609" y="692"/>    
+    <bendpoint x="606" y="962"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="178" name="InvestorsList"/>      
+      <multiplicity id="179" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="180">    
+    <bendpoint x="-155" y="940"/>    
+    <bendpoint x="72" y="939"/>    
+    <bendpoint x="187" y="875"/>    
+    <bendpoint x="187" y="784"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="181" name="erProblem"/>      
+      <multiplicity id="182" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="183">    
+    <bendpoint x="-155" y="939"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="184" name="bestMDPPolicy"/>      
+      <multiplicity id="185" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="186">    
+    <bendpoint x="1196" y="1516"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="187" name="currentMDPState"/>      
+      <multiplicity id="188" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="189">    
+    <bendpoint x="1752" y="230"/>    
+    <bendpoint x="1752" y="1537"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="190" name="brokerDealMaketMakerList"/>      
+      <multiplicity id="191" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="192">    
+    <bendpoint x="755" y="452"/>    
+    <bendpoint x="772" y="719"/>    
+    <bendpoint x="825" y="965"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="193" name="actionsSpace"/>      
+      <multiplicity id="194" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
